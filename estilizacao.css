@@ -1,7 +1,9 @@
 body {
-  background: black;
+  display: grid;
+  grid-template-columns: 15vw 70vw 15vw;
+  grid-template-areas: "c1 c2 c3";
 }
 
-h1 {
-  color: white;
+#col2 {
+  grid-area: c2;
 }
